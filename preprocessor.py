@@ -1,5 +1,6 @@
 import string
 import nltk
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
