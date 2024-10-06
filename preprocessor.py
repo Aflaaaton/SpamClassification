@@ -1,6 +1,6 @@
 import string
 import nltk
-nltk.download('all')
+nltk.download('popular')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
