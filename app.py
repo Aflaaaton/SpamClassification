@@ -4,8 +4,6 @@ import pickle
 from preprocessor import text_transformer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import MultinomialNB
-import nltk
-nltk.download('punkt_tab')
 encoder = LabelEncoder()
 mnb = MultinomialNB()
 
